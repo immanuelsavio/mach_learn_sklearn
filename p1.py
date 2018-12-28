@@ -14,3 +14,5 @@ print('Prediction:',clf.predict(digits.data[[-2]]))#Edit this number for more ex
 
 plt.imshow(digits.images[-2], cmap=plt.cm.gray_r, interpolation="nearest")
 plt.show()
+
+#end prog
